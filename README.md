@@ -3,6 +3,7 @@
 ## Information
 Chrome extension that automatically deletes tabs/urls containing banned search terms.
 
+## Pop-Up UI
 ![alt text](image-1.png)
 
 ## Features
