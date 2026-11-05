@@ -52,7 +52,7 @@ async function addKeyWordButton(){
     const button = document.getElementById("addButton");
     
     button.addEventListener("click", async () => {
-        await addKeyWord(input.value); // Calls addKeyWord to input value in field.
+        await addKeyWord(input.value.toLowerCase()); // Calls addKeyWord to input value in field.
         input.value = "";
         renderKeywords();
     });
