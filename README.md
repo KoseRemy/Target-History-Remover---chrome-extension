@@ -28,8 +28,8 @@ Chrome extension that automatically deletes any newly visited tabs/urls containi
 - Addressbar autocomplete.
 - Network level logs.
 
-## Non limitations
-- All local to pc
+## Note
+- All local
 
 ## Tech
 - JavaScript
