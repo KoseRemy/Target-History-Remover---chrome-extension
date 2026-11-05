@@ -21,6 +21,16 @@ Chrome extension that automatically deletes any newly visited tabs/urls containi
 3. Turn on **Developer mode** on the top right.
 4. Click **Load unpacked** and select the folder containing this repo
 
+## Limitations
+- Does not clear cookies, cache, saved logins
+- Google or Youtube account activity (obviously)
+- Brave/Chrome sync on other devices.
+- Addressbar autocomplete.
+- Network level logs.
+
+## Non limitations
+- All local to pc
+
 ## Tech
 - JavaScript
 - Chrome Extensions API (Manifest V3)
