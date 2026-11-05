@@ -58,5 +58,15 @@ async function addKeyWordButton(){
     });
 }
 
+document.getElementById("removeHistoryButton").addEventListener("click", async () => {
+    const button = document.getElementById("removeHistoryButton");
+    const response = await chrome.runtime.sendMessage({ action: "cleanNow" });
+
+    const flashColour = response.count > 0 ? "bg-green-600" : "bg-gray-500";
+    button.classList.replace("bg-red-600", flashColour);
+
+    setTimeout(() => button.classList.replace(flashColour, "bg-red-600"), 600);
+});
+
 addKeyWordButton();
 renderKeywords();

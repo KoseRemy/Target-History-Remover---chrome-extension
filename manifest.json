@@ -2,10 +2,8 @@
     "name": "Target History Remover",
     "version": "0.1.0",
     "description": "Removes target history from browser",
-    "permissions": ["scripting", "tabs", "history", "browsingData", "storage"],
-    "background": {
-      "service_worker": "background.js"
-    },
+    "permissions": ["scripting", "tabs", "history", "storage"],
+    "background": { "service_worker": "background.js" },
     "action": {
       "default_icon": {
         "16": "assets/icon.png",
