@@ -1,6 +1,9 @@
 const storageKey = "storage"
 
 const addKeyWord = async (inputWord) => {
+    if(!inputWord.trim()){
+        return;
+    }
     let currList = await getKeyWords();
     currList.push(inputWord);
     await chrome.storage.local.set({ [storageKey]: currList });
@@ -26,11 +29,12 @@ async function renderKeywords(){
         // Create div for each keyword
         const keywordBox = document.createElement("div");
         keywordBox.textContent = keyword;
+        keywordBox.className = "px-2";
 
         // Remove button, styling, appended to container.
         const removeButton = document.createElement("button");
-        removeButton.textContent = "Remove";
-        removeButton.className = "px-2 py-1 rounded bg-red-600 hover:bg-red-500 text-sm ml-2";
+        removeButton.textContent = "x";
+        removeButton.className = "px-2 text-red-400 hover:text-red-300 text-sm ml-2";
         keywordBox.appendChild(removeButton);
 
         removeButton.addEventListener("click", async () => {
