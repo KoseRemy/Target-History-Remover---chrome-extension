@@ -1,6 +1,7 @@
 <p align="center">
   <img src="assets/icon.png" width="300" alt="icon">
 </p>
+(drawn by me)
 
 # Target History Remover
 
