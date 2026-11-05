@@ -1,6 +1,7 @@
+<img src="assets/icon.png" width="100" align="right" alt="icon"></img>
+
 # Target History Remover
 
-## Information
 Chrome extension that automatically deletes any newly visited tabs/urls containing specified banned search terms.
 
 ## Pop-Up UI
