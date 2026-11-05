@@ -196,6 +196,12 @@
       max-width: 96rem;
     }
   }
+  .my-2 {
+    margin-block: calc(var(--spacing) * 2);
+  }
+  .mt-auto {
+    margin-top: auto;
+  }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
   }
@@ -207,6 +213,12 @@
   }
   .table {
     display: table;
+  }
+  .h-96 {
+    height: calc(var(--spacing) * 96);
+  }
+  .h-100 {
+    height: calc(var(--spacing) * 100);
   }
   .max-h-48 {
     max-height: calc(var(--spacing) * 48);
@@ -228,6 +240,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .gap-1 {
     gap: var(--spacing);
