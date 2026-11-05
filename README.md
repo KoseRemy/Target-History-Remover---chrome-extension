@@ -1,24 +1,21 @@
 # Target History Remover
 
-Automatically delete specified website visits based on select keywords.
+## Information
+Chrome extension that automatically deletes tabs/urls containing banned search terms.
 
-## Planned / Features
-- Auto-delete target website upon visit
-- Manual clearing upon click
+![alt text](image-1.png)
 
-## How It Works
-- 
+## Features
+- Auto-deletes from history visited pages containing banned terms.
+- Manual button check all history and deletes ones containing banned terms..
 
 ## Installation
-1. Download or clone this repo
-2. Go to `brave://extensions` (or `chrome://extensions`)
-3. Turn on **Developer mode**
-4. Click **Load unpacked** and select this folder
+1. Clone this repo
+2. Go to `brave://extensions` or `chrome://extensions`
+3. Turn on **Developer mode** on the top right.
+4. Click **Load unpacked** and select folder containing this repo
 
-## Tech Used
+## Tech
 - JavaScript
 - Chrome Extensions API (Manifest V3)
 - Tailwind CSS
-
-## Notes
--
