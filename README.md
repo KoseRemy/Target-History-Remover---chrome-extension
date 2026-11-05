@@ -1,7 +1,7 @@
 # Target History Remover
 
 ## Information
-Chrome extension that automatically deletes tabs/urls containing banned search terms.
+Chrome extension that automatically deletes any newly visited tabs/urls containing specified banned search terms.
 
 ## Pop-Up UI
 ![alt text](image-1.png)
